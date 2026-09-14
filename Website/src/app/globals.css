@@ -1,0 +1,119 @@
+@import "tailwindcss";
+@import "@fontsource-variable/jetbrains-mono";
+
+@theme {
+  /* Colors - mapped from DESIGN.md */
+  --color-primary: #201d1d;
+  --color-on-primary: #fdfcfc;
+  --color-ink: #201d1d;
+  --color-ink-deep: #0f0000;
+  --color-charcoal: #302c2c;
+  --color-body: #424245;
+  --color-mute: #646262;
+  --color-stone: #6e6e73;
+  --color-ash: #9a9898;
+  --color-canvas: #fdfcfc;
+  --color-surface-soft: #f8f7f7;
+  --color-surface-card: #f1eeee;
+  --color-surface-dark: #201d1d;
+  --color-surface-dark-elevated: #302c2c;
+  --color-hairline: rgba(15,0,0,0.12);
+  --color-hairline-strong: #646262;
+  --color-on-dark: #fdfcfc;
+  --color-on-dark-mute: #9a9898;
+  --color-accent: #007aff;
+  --color-accent-hover: #0056b3;
+  --color-accent-active: #004085;
+  --color-warning: #ff9f0a;
+  --color-warning-hover: #cc7f08;
+  --color-warning-active: #995f06;
+  --color-danger: #ff3b30;
+  --color-danger-hover: #d70015;
+  --color-danger-active: #a50011;
+  --color-success: #30d158;
+
+  /* Typography - mapped from DESIGN.md */
+  --font-mono: "JetBrains Mono Variable", "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --text-display-xl: 38px;
+  --text-heading-md: 16px;
+  --text-body-md: 16px;
+  --text-body-strong: 16px;
+  --text-body-tight: 16px;
+  --text-link-md: 16px;
+  --text-button-md: 16px;
+  --text-caption-md: 14px;
+  --leading-display-xl: 1.5;
+  --leading-heading-md: 1.5;
+  --leading-body-md: 1.5;
+  --leading-body-strong: 1.5;
+  --leading-body-tight: 1;
+  --leading-link-md: 1.5;
+  --leading-button-md: 2;
+  --leading-caption-md: 2;
+  --font-weight-display-xl: 700;
+  --font-weight-heading-md: 700;
+  --font-weight-body-md: 400;
+  --font-weight-body-strong: 500;
+  --font-weight-body-tight: 500;
+  --font-weight-link-md: 400;
+  --font-weight-button-md: 500;
+  --font-weight-caption-md: 400;
+  --tracking-display-xl: 0;
+  --tracking-heading-md: 0;
+  --tracking-body-md: 0;
+  --tracking-body-strong: 0;
+  --tracking-body-tight: 0;
+  --tracking-link-md: 0;
+  --tracking-button-md: 0;
+  --tracking-caption-md: 0;
+
+  /* Spacing - mapped from DESIGN.md */
+  --spacing-xxs: 1px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 24px;
+  --spacing-xxl: 32px;
+  --spacing-section: 96px;
+
+  /* Rounded - mapped from DESIGN.md */
+  --radius-none: 0px;
+  --radius-sm: 4px;
+  --radius-full: 9999px;
+
+  /* Breakpoints - custom 5-breakpoint mapping from DESIGN.md */
+  --breakpoint-desk-lg: 1280px;
+  --breakpoint-desk: 1024px;
+  --breakpoint-tab: 850px;
+  --breakpoint-tab-narrow: 768px;
+  --breakpoint-mob: 640px;
+}
+
+/* Base styles */
+* {
+  font-family: var(--font-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-canvas);
+  color: var(--color-ink);
+  font-size: var(--text-body-md);
+  font-weight: var(--font-weight-body-md);
+  line-height: var(--leading-body-md);
+}
+
+/* Focus visible for accessibility */
+:focus-visible {
+  outline: 2px solid var(--color-ink);
+  outline-offset: 2px;
+}
+
+/* Smooth scroll offset for sticky nav */
+html {
+  scroll-padding-top: 56px;
+}
