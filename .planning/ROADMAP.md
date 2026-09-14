@@ -1,16 +1,18 @@
 # Roadmap: Data Science Portfolio
 
 **Created:** 2026-09-14
-**Granularity:** Standard (6 phases)
+**Completed:** 2026-09-14
+**Granularity:** Standard (5 phases)
 **Mode:** MVP (Vertical slices per phase)
+**Status:** ✓ Complete
 
 ## Phases
 
 - [x] **Phase 1: Foundation** — Design tokens, layout shell, and responsive scaffolding
-- [ ] **Phase 2: Content Data Files** — Typed TypeScript content for all sections
-- [ ] **Phase 3: Section Components** — All portfolio sections rendered with content data
-- [ ] **Phase 4: Scroll Navigation + Integration** — Smooth scrolling, scroll-spy, mobile nav, page composition
-- [ ] **Phase 5: Polish + Deployment** — SEO, GitHub Pages deployment, performance, 404 handling
+- [x] **Phase 2: Content Data Files** — Typed TypeScript content for all sections
+- [x] **Phase 3: Section Components** — All portfolio sections rendered with content data
+- [x] **Phase 4: Scroll Navigation + Integration** — Smooth scrolling, scroll-spy, mobile nav, page composition
+- [x] **Phase 5: Polish + Deployment** — SEO, GitHub Pages deployment, performance, 404 handling
 
 ## Phase Details
 
@@ -27,7 +29,7 @@
   5. Section containers maintain 96px vertical rhythm between sections
 **Plans**: 01-01 (Foundation Scaffold), 01-02 (Deployment + Verification)
 
-### Phase 2: Content Data Files
+### Phase 2: Content Data Files ✓
 **Goal:** All portfolio content exists as typed TypeScript data files with real-world project narratives following the case study structure — ready for section components to consume.
 **Mode:** mvp
 **Depends on:** Phase 1
@@ -38,9 +40,9 @@
   3. Each project includes a GitHub repository link and at least one data visualization anchor (chart description or embed)
   4. Project narratives lead with business impact quantification, not accuracy scores
   5. Skills data is categorized into languages, frameworks, tools, and domain expertise — all entries are real proficiencies
-**Plans**: TBD
+**Plans**: 02-01 (Content Data Files)
 
-### Phase 3: Section Components
+### Phase 3: Section Components ✓
 **Goal:** Every portfolio section is rendered as a visible, styled React component with content data — hero, projects, skills, experience, education, and contact sections all appear on the page.
 **Mode:** mvp
 **Depends on:** Phase 1, Phase 2
@@ -52,10 +54,9 @@
   4. Experience section displays a professional timeline with career progression and key achievements
   5. Education section shows degrees, certifications, and courses with proper formatting
   6. Contact section displays email, LinkedIn, and GitHub links — all are clickable and lead to correct destinations
-**Plans**: TBD
-**UI hint**: yes
+**Plans**: 03-01 (Section Components)
 
-### Phase 4: Scroll Navigation + Integration
+### Phase 4: Scroll Navigation + Integration ✓
 **Goal:** The single-page portfolio functions as a cohesive experience — smooth scroll between sections, active navigation state reflects current position, and mobile users can navigate via a hamburger menu.
 **Mode:** mvp
 **Depends on:** Phase 3
@@ -65,10 +66,9 @@
   2. The navigation bar highlights the currently visible section as the user scrolls
   3. On mobile (<768px), a hamburger menu provides access to all section links
   4. All sections are composed in correct order on a single page — no missing sections, no duplicate rendering
-**Plans**: TBD
-**UI hint**: yes
+**Plans**: 04-01 (Scroll Navigation + Integration)
 
-### Phase 5: Polish + Deployment
+### Phase 5: Polish + Deployment ✓
 **Goal:** The portfolio is live on GitHub Pages, passes basic SEO checks, handles edge cases (404, performance), and is ready for recruiters to visit.
 **Mode:** mvp
 **Depends on:** Phase 4
@@ -79,17 +79,18 @@
   3. `.nojekyll` file exists in the public directory — GitHub Pages serves `_next/` assets correctly
   4. Page includes SEO metadata (title, description, Open Graph tags) visible in browser dev tools
   5. Custom 404 page exists and displays a styled error message
-**Plans**: TBD
+**Plans**: 05-01 (Polish + Deployment)
 
 ## Progress Table
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | ✓ Complete | 2026-09-14 |
-| 2. Content Data Files | 0/5 | Not started | - |
-| 3. Section Components | 0/6 | Not started | - |
-| 4. Scroll Navigation + Integration | 0/4 | Not started | - |
-| 5. Polish + Deployment | 0/5 | Not started | - |
+| 2. Content Data Files | 1/1 | ✓ Complete | 2026-09-14 |
+| 3. Section Components | 1/1 | ✓ Complete | 2026-09-14 |
+| 4. Scroll Navigation + Integration | 1/1 | ✓ Complete | 2026-09-14 |
+| 5. Polish + Deployment | 1/1 | ✓ Complete | 2026-09-14 |
 
 ---
 *Roadmap created: 2026-09-14*
+*Roadmap completed: 2026-09-14*
