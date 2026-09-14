@@ -1,29 +1,27 @@
 import { PageShell } from "@/components/layout/PageShell";
 import { SectionContainer } from "@/components/layout/SectionContainer";
+import { HeroSection } from "@/components/sections/HeroSection";
+import { ProjectsSection } from "@/components/sections/ProjectsSection";
+import { SkillsSection } from "@/components/sections/SkillsSection";
+import { ExperienceSection } from "@/components/sections/ExperienceSection";
+import { EducationSection } from "@/components/sections/EducationSection";
+import { ContactSection } from "@/components/sections/ContactSection";
 
 const sections = [
-  { id: "hero", title: "Hero" },
-  { id: "experience", title: "Experience" },
-  { id: "projects", title: "Projects" },
-  { id: "skills", title: "Skills" },
-  { id: "education", title: "Education" },
-  { id: "contact", title: "Contact" },
+  { id: "hero", Component: HeroSection },
+  { id: "projects", Component: ProjectsSection },
+  { id: "skills", Component: SkillsSection },
+  { id: "experience", Component: ExperienceSection },
+  { id: "education", Component: EducationSection },
+  { id: "contact", Component: ContactSection },
 ];
 
 export default function Home() {
   return (
     <PageShell>
-      {sections.map((section) => (
-        <SectionContainer key={section.id} id={section.id}>
-          <h2
-            id={`${section.id}-heading`}
-            className="text-[var(--text-heading-md)] font-[var(--font-weight-heading-md)] mb-4"
-          >
-            {section.title}
-          </h2>
-          <p className="text-[var(--text-body-md)] text-[var(--color-body)]">
-            Section content coming in Phase 2+
-          </p>
+      {sections.map(({ id, Component }) => (
+        <SectionContainer key={id} id={id}>
+          <Component />
         </SectionContainer>
       ))}
     </PageShell>
