@@ -6,7 +6,7 @@
 
 ## Phases
 
-- [ ] **Phase 1: Foundation** — Design tokens, layout shell, and responsive scaffolding
+- [x] **Phase 1: Foundation** — Design tokens, layout shell, and responsive scaffolding
 - [ ] **Phase 2: Content Data Files** — Typed TypeScript content for all sections
 - [ ] **Phase 3: Section Components** — All portfolio sections rendered with content data
 - [ ] **Phase 4: Scroll Navigation + Integration** — Smooth scrolling, scroll-spy, mobile nav, page composition
@@ -14,7 +14,7 @@
 
 ## Phase Details
 
-### Phase 1: Foundation
+### Phase 1: Foundation ✓
 **Goal:** Visitors see a fully styled, responsive page scaffold with terminal-native design tokens — monospaced typography, warm cream canvas, ASCII bracket markers, and sticky navigation — before any portfolio content exists.
 **Mode:** mvp
 **Depends on:** Nothing (first phase)
@@ -25,7 +25,7 @@
   3. Layout adapts visibly at desktop (1280px+), tablet (768-1024px), and mobile (<640px) breakpoints
   4. Sticky navigation bar (56px) is visible and stays fixed on scroll
   5. Section containers maintain 96px vertical rhythm between sections
-**Plans**: TBD
+**Plans**: 01-01 (Foundation Scaffold), 01-02 (Deployment + Verification)
 
 ### Phase 2: Content Data Files
 **Goal:** All portfolio content exists as typed TypeScript data files with real-world project narratives following the case study structure — ready for section components to consume.
@@ -85,7 +85,7 @@
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/4 | Not started | - |
+| 1. Foundation | 2/2 | ✓ Complete | 2026-09-14 |
 | 2. Content Data Files | 0/5 | Not started | - |
 | 3. Section Components | 0/6 | Not started | - |
 | 4. Scroll Navigation + Integration | 0/4 | Not started | - |
