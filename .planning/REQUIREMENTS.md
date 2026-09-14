@@ -87,28 +87,28 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| LAYOUT-01 | — | Pending |
-| LAYOUT-02 | — | Pending |
-| LAYOUT-03 | — | Pending |
-| HERO-01 | — | Pending |
-| HERO-02 | — | Pending |
-| PROJ-01 | — | Pending |
-| PROJ-02 | — | Pending |
-| PROJ-03 | — | Pending |
-| PROJ-04 | — | Pending |
-| PROJ-05 | — | Pending |
-| SKILLS-01 | — | Pending |
-| EXP-01 | — | Pending |
-| EDU-01 | — | Pending |
-| CONTACT-01 | — | Pending |
-| DEPLOY-01 | — | Pending |
-| DEPLOY-02 | — | Pending |
+| LAYOUT-01 | Phase 1 | Pending |
+| LAYOUT-02 | Phase 1 | Pending |
+| LAYOUT-03 | Phase 1 | Pending |
+| HERO-01 | Phase 2 | Pending |
+| HERO-02 | Phase 2 | Pending |
+| PROJ-01 | Phase 2 | Pending |
+| PROJ-02 | Phase 2 | Pending |
+| PROJ-03 | Phase 2 | Pending |
+| PROJ-04 | Phase 2 | Pending |
+| PROJ-05 | Phase 2 | Pending |
+| SKILLS-01 | Phase 2 | Pending |
+| EXP-01 | Phase 2 | Pending |
+| EDU-01 | Phase 2 | Pending |
+| CONTACT-01 | Phase 2 | Pending |
+| DEPLOY-01 | Phase 5 | Pending |
+| DEPLOY-02 | Phase 5 | Pending |
 
 **Coverage:**
 - v1 requirements: 16 total
-- Mapped to phases: 0
-- Unmapped: 16
+- Mapped to phases: 16
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-09-14*
-*Last updated: 2026-09-14 after initial definition*
+*Last updated: 2026-09-14 after roadmap creation*
